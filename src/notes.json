@@ -1,0 +1,22 @@
+[
+    {
+        "titulo":"Primera nota",
+        "descripcion":"Esta es mi primera nota",
+        "prioridad":"alta",
+        "estado":false
+    },{
+        "titulo":"Segunda nota",
+        "descripcion":"Esta es mi Segunda nota",
+        "prioridad":"media",
+        "estado":false
+    },{
+        "titulo":"Primera nota",
+        "descripcion":"Esta es mi primera nota",
+        "prioridad":"baja",
+        "estado":true
+    }
+  
+  
+]
+  
+  
