@@ -38,7 +38,7 @@ class App extends Component {
     indice = parseInt(indice)
     this.setState({notes:this.state.notes.map(function(dato, e)
       {if(e === indice){
-        dato.estado= false
+        dato.estado= !dato.estado
       }
       return dato;})})
     }
