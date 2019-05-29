@@ -36,6 +36,12 @@ class Notes extends Component {
     }
     finishNote(indice){
         this.props.onFinishNote(indice.target.value)
+        this.setState({
+            titulo:'',
+            descripcion:'',
+            prioridad:'',
+            estado:true
+        })
     }
 
     render() {
