@@ -51,7 +51,7 @@ class Notes extends Component {
                                 <span>Prioridad: <MDBBadge  color={note.prioridad==='alta'?'danger':'primary'} >{note.prioridad}</MDBBadge></span>
                                 <span className='mx-2'>Estado: <MDBBadge  color={note.estado ?'success':'danger'}> {note.estado? 'Activo':'Finalizado'} </MDBBadge></span>
                             </div>
-                            {note.estado?<MDBBtn value={indice} onClick={this.finishNote} className='mt-3 btn-block' color='success'>Terminar</MDBBtn>:''}
+                            {note.estado?<MDBBtn value={indice} onClick={this.finishNote} className='mt-3 btn-block' color='success'>Terminar</MDBBtn>:null}
                             <MDBBtn className='mt-3 btn-block' value={indice}  onClick={this.deleteNote} color="danger">Borrar</MDBBtn>
                         </div>  
                     </MDBCard>
