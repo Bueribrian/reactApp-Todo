@@ -37,7 +37,7 @@ class App extends Component {
   handleFinishNote(indice){
     indice = parseInt(indice)
     this.setState({notes:this.state.notes.map(function(dato, e)
-      {if(e === indice && dato.estado){
+      {if(e === indice){
         dato.estado= false
       }
       return dato;})})
